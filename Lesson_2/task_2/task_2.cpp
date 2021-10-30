@@ -9,15 +9,16 @@ int main()
 	cout << "Enter please number: ";
 	cin >> num;
 	cout << endl;
+	int num1 = num;
 
-	for (int a = num % 10; num != 0;)
+	for (int a = num1 % 10; num1 != 0;)
 	{
-		if (num % 10 == num / 10 % 10)
-			hash_code += num % 10;
+		if (num1 % 10 == num1 / 10 % 10)
+			hash_code += num1 % 10;
 
-		if (num < 10 && num == a)
-			hash_code += num;
-		num /= 10;
+		if (num1 < 10 && num1 == a)
+			hash_code += num1;
+		num1 /= 10;
 	}
 	cout << "Hash-code: " << hash_code << endl;
 }

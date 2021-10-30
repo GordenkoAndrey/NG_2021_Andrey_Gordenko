@@ -3,7 +3,8 @@ using namespace std;
 
 int main()
 {
-	int a, b;
+	int a = 0;
+	int b = 0;
 	cout << "Enter please value first number: ";
 	cin >> a;
 	cout << "Enter please value second number: ";

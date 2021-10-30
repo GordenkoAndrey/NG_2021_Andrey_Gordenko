@@ -9,11 +9,12 @@ int main()
 	cout << "Enter please number: ";
 	cin >> num;
 	cout << endl;
+	int number = num;
 
-	while (num > 0)
+	while (number > 0)
 	{
-		sum += num % 10;
-		num /= 10;
+		sum += number % 10;
+		number /= 10;
 	}
-	cout <<"Sum: "<< sum << endl;
+	cout << "Sum: " << sum << endl;
 }

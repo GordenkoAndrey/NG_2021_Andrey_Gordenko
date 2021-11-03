@@ -3,8 +3,8 @@ using namespace std;
 
 int main()
 {
-	double ship_mass;
-	int required_fuel;
+	double ship_mass = 0;
+	double required_fuel = 0;
 	cout << "Enter please mass ship: ";
 	cin >> ship_mass;
 	cout << endl;

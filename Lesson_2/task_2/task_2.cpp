@@ -10,8 +10,9 @@ int main()
 	cin >> num;
 	cout << endl;
 	int num1 = num;
+	int a = num1 % 10;
 
-	for (int a = num1 % 10; num1 != 0;)
+	while (num1 != 0)
 	{
 		if (num1 % 10 == num1 / 10 % 10)
 			hash_code += num1 % 10;

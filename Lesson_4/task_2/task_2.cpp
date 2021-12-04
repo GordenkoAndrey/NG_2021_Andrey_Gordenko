@@ -5,9 +5,8 @@ using namespace std;
 int main()
 {
 	bool str = true;
-	const int num = 256;
-	char line1[num];
-	char line2[num];
+	char line1[256];
+	char line2[256];
 
 	cout << "Enter please first line: ";
 	cin.getline(line1, 256);

@@ -17,7 +17,7 @@ int main()
             input[i] <= ';' || input[i] <= ':' ||
             input[i] <= '-')
             number_haracters++;
-        if (input[i] == ' ' || input[i] == '\'')
+        if (input[i] == ' ' || input[i] == '\'' || input[i] == '/')
             number_haracters--;
     }
     cout << "Number of haraccters: " << number_haracters << endl;
